@@ -340,20 +340,6 @@
       "jar": null
     },
     {
-      "key": "csp_drpy_tuxiaobei",
-      "name": "兔小贝(儿童)",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/fantaiying7/EXT@main/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 10000,
-      "ext": "var rule = {\n    title:'兔小贝',\n    host:'https://www.tuxiaobei.com',\n    homeUrl:'',\n    url:'/list/mip-data?typeId=fyclass&page=fypage&callback=',\n    detailUrl:'/play/fyid',\n    searchUrl:'/search/index?key=**',\n    searchable:2,\n    headers:{\n        'User-Agent':'MOBILE_UA'\n    },\n    timeout:5000,\n    class_url:'2&3&4&25',\n    class_name:'儿歌&故事&国学&启蒙',\n    //class_name:'#page-viewport&&ul&&li;.text&&Text;a&&href;/(.*)',\n    cate_exclude:'应用',\n    推荐:'.pic-list.list-box;.items;.text&&Text;mip-img&&src;.all&&Text;a&&href',\n    double:true,\n    limit:5,\n    play_parse:true,\n    lazy:'js:fetch_params.headers[\"user-agent\"] = IOS_UA;let html=fetch(input,fetch_params);let src = jsp.pdfh(html,\"body&&#videoWrap&&video-src\");input=src;',\n    // 一级:'json:data.items;name;image;collect_num;category_id+video_id',\n    一级:'json:data.items;name;image;duration_string;video_id',\n    二级:'*',\n    搜索:'.list-con&&.items;.text&&Text;mip-img&&src;.time&&Text;a&&href',\n}",
-      "playerApi": null,
-      "categories": null,
-      "jar": null
-    },
-    {
       "key": "csp_SNzy",
       "name": "索尼高清",
       "type": 1,

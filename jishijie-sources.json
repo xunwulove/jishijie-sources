@@ -227,20 +227,7 @@
       "categories": null,
       "jar": null
     },
-    {
-      "key": "aidan",
-      "name": "艾旦影视",
-      "type": 1,
-      "api": "http://lovedan.net/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 15000,
-      "ext": null,
-      "playerApi": null,
-      "categories": null,
-      "jar": null
-    },
+    
     {
       "key": "huya",
       "name": "虎牙资源",
